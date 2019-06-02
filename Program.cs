@@ -1,21 +1,24 @@
 ﻿using System;
 
-namespace kata1._2
+namespace Kata2._1
 {
     class Program
     {
-   
-            public static void main(String[] args)
+        static void Main(string[] args)
+        {
+           class Main
+        {
+            public board next()
             {
-                try
-                {
-
-                    Args arg = new arg("l,p#,d*");
-                    boolean logging = arg.Getboolean("d*");
-                    int port = arg.Getint("p#");
-                    String Directory = arg.Getstring("d*");
-                    ExecuteApplication(logging, port, directory);
-
-                }
+                Set<point> celulaviva = new HashSet<point>();
+                int x;
+                for (x <= 2) ;
+                Console.WriteLine("Las celulas morian por baja poblacion");
+                for (x <= 3) ;
+                Console.WriteLine("Las celulas morian por sobre poblacion");
+                for (x == 3) ;
+                Console.WriteLine("Las celulas morian por sobre poblacion");
+                for (x >= 3) ;
+                Console.WriteLine(" Las celulas las celulas pasaran a vivir en la proxima generacion");
     }
 }
