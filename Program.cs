@@ -1,24 +1,27 @@
 ﻿using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace Kata2._1
+
+
+namespace kata3._2
 {
     class Program
     {
         static void Main(string[] args)
+
         {
-           class Main
-        {
-            public board next()
+           
+            //var expectedNumberOfAnagrams = 20683;
+            var allLines = File.ReadAllLines("Listadepalabra.txt");
+            var word = allLines.Where(x => x != string.Empty).ToArray();
+
+            List<anagramList> Implementations = new List<anagramList>();
             {
-                Set<point> celulaviva = new HashSet<point>();
-                int x;
-                for (x <= 2) ;
-                Console.WriteLine("Las celulas morian por baja poblacion");
-                for (x <= 3) ;
-                Console.WriteLine("Las celulas morian por sobre poblacion");
-                for (x == 3) ;
-                Console.WriteLine("Las celulas morian por sobre poblacion");
-                for (x >= 3) ;
-                Console.WriteLine(" Las celulas las celulas pasaran a vivir en la proxima generacion");
+                //new anagramListParralellelGrouping_Customs();
+                Console.WriteLine("Hello World!");
+            }
+        }
     }
-}
+    }
