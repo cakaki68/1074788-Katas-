@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace Kata4._2
+namespace kata5._1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+            public void cutterGame() throws exception
+            {
+                cutterGame();
+   Game g = new game();
+   for (int i=0; i<20;i++)
+   g.roll(0);
+   
         }
     }
 }
