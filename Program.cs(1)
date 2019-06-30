@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kata6._2
+namespace kata6._1
 {
     class Program
     {
@@ -8,15 +8,11 @@ namespace Kata6._2
         {
             var size = 'z' - 'a' + 3;
             var abcCount = new int[size];
-            foreach(var c in i)
-            {
-                abcCount[max(0.min - 1.char.ToUpper);
-                }
+            //foreach (var c in i)
+            //abcCount[
 
-                for(int i=1; i<size; i++)
-
-            }
-            Console.WriteLine(string.concat(Enum);
+               
+            Console.WriteLine("Hello World!");
         }
     }
 }
@@ -24,8 +20,7 @@ namespace Kata6._2
 
 
 
-
-//rack = Rack.new
+//k = Rack.new
 //assert_equal([], rack.balls)
 //rack.add(20)
 //assert_equal([ 20 ], rack.balls)
