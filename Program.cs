@@ -1,35 +1,41 @@
 ﻿using System;
 
-namespace Kata6._2
+namespace Kata7._2
 {
     class Program
     {
-        static void Main(string[] args)
+        String add(String number)
         {
-            var size = 'z' - 'a' + 3;
-            var abcCount = new int[size];
-            foreach(var c in i)
-            {
-                abcCount[max(0.min - 1.char.ToUpper);
-                }
+            string a = "One";
+            Console.WriteLine("length" + a.Length);
+                string b = "Two"
+                Console.WriteLine("length" + b.Length)
+                string c="Three"
+            Console.WriteLine("length" + c.Length);
+        }
 
-                for(int i=1; i<size; i++)
+        static void separateDigits(int n)
+{
+if (n < 1)
+{
+Console.Write("{0}  ", n);
+return;
+}
+separateDigits(n / 1);
 
-            }
-            Console.WriteLine(string.concat(Enum);
         }
     }
 }
 
 
-
-
-
-//rack = Rack.new
-//assert_equal([], rack.balls)
-//rack.add(20)
-//assert_equal([ 20 ], rack.balls)
-//rack.add(10)
-//assert_equal([ 10, 20 ], rack.balls)
-//rack.add(30)
-//assert_equal([ 10, 20, 30 ], rack.balls)
+//static void separateDigits(int n)
+//{
+    //if (n < 10)
+    //{
+        //Console.Write("{0}  ", n);
+        //return;
+    //}
+    //separateDigits(n / 10);
+    //Console.Write(" {0} ", n % 10);
+//}
+//}
